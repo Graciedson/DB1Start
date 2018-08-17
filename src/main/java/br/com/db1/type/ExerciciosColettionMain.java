@@ -4,6 +4,7 @@ public class ExerciciosColettionMain {
 
 	public static void main(String[] args) {
 //Comentário
+		//Comentário 2
 
 
 	}

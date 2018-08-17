@@ -28,6 +28,7 @@ public class ExercicioDeColecaoTest {
 		List<String> nome = exercicio.exercicio3Add();
 		assertTrue(nome.get(0) == "Antonio");
 		assertTrue(nome.get(1) == "Zeny");
+		assertTrue(nome.get(3) == "Claudia");
 
 	}
 }

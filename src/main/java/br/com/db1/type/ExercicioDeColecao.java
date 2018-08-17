@@ -56,6 +56,7 @@ public class ExercicioDeColecao {
 		
 		nome.add("Lara");
 		nome.add("Thiago");
+		nome.add("Algusto");
 
 		
 		return nome;
