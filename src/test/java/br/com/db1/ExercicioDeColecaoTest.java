@@ -22,7 +22,7 @@ public class ExercicioDeColecaoTest {
 
 		assertTrue(exercicio.exercicio2QddItensLista() == 2);
 	}
-
+//
 
 	@Test
 	public void exercicio3AddTest() {
