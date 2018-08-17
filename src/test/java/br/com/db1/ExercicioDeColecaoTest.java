@@ -23,10 +23,7 @@ public class ExercicioDeColecaoTest {
 		assertTrue(exercicio.exercicio2QddItensLista() == 2);
 	}
 
-	/*
-	 * 3. FUM que adicione o nome dos seus parentes (pai, mãe, irmãos, irmãs, tios,
-	 * tias e primos) e remova o nome dos seus pais
-	 */
+
 	@Test
 	public void exercicio3AddTest() {
 		List<String> nome = exercicio.exercicio3Add();

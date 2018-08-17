@@ -1,8 +1,9 @@
 package br.com.db1.type;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
-
+import java.util
 public class ExercicioDeColecao {
 
 	public List<String> exercicio1CorPreferida() {
@@ -31,6 +32,8 @@ public class ExercicioDeColecao {
 	public List<String> exercicio3Add() {
 
 		List<String> nome = new ArrayList<String>();
+		
+		
 		nome.add("Antonio");
 		nome.add("Zeny");
 		nome.add("Claudia");
@@ -41,7 +44,22 @@ public class ExercicioDeColecao {
 		nome.add("Thaynara");
 		nome.add("Yakine");
 		nome.add("Giovanna");
+		System.out.println(nome);
+		
+	    Iterator<String> itr = nome.iterator();
+	    while (itr.hasNext()) {
+	   
+	      System.out.println(nome.getNome(itr.next()));
+	      
+		nome.Iterator.remove();
+		
+		nome.add("Lara");
+
+		
 		return nome;
 	}
+
+
+
 
 }
