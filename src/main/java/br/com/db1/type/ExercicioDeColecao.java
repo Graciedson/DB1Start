@@ -57,7 +57,7 @@ public class ExercicioDeColecao {
 		nome.add("Lara");
 		nome.add("Thiago");
 		nome.add("Algusto");
-
+		nome.add("Tainã");
 		
 		return nome;
 	}
