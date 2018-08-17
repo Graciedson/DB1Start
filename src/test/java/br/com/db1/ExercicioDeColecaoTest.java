@@ -12,15 +12,25 @@ public class ExercicioDeColecaoTest {
 	ExercicioDeColecao exercicio = new ExercicioDeColecao();
 
 	@Test
-	public void exercicio1() {
-		List<String> cor = exercicio.exercicio1();
+	public void exercicio1CorPreferida() {
+		List<String> cor = exercicio.exercicio1CorPreferida();
 		assertTrue(cor.get(0) == "Branco");
 	}
 
 	@Test
 	public void exercicio2QddItensListaTest() {
-		// ExercicioDeColecao ex = new ExercicioDeColecao();
+
 		assertTrue(exercicio.exercicio2QddItensLista() == 2);
+	}
+
+	/*
+	 * 3. FUM que adicione o nome dos seus parentes (pai, mãe, irmãos, irmãs, tios,
+	 * tias e primos) e remova o nome dos seus pais
+	 */
+	@Test
+	public void exercicio3AddTest() {
+		List<String> nome = exercicio.exercicio3Add();
+		assertTrue(nome.get(0) == "Antonio");
 
 	}
 }

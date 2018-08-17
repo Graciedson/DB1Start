@@ -4,19 +4,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ExercicioDeColecao {
-	
-	//public ArrayList<String> exercicio1CorPreferida() {
-	//ArrayList<String> cor = new ArrayList<String>();
-		public List<String> exercicio1() {
+
+	public List<String> exercicio1CorPreferida() {
 		List<String> cor = new ArrayList<String>();
 		cor.add("Branco");
 		cor.add("Preto");
 		cor.add("verde");
-		cor.add("amarelo");
+		cor.add("Amarelo");
 		System.out.println(cor.get(0));
 		System.out.println(cor.get(1));
 		System.out.println(cor.get(2));
 		System.out.println(cor.get(3));
+		System.out.println(cor.size());
+		System.out.println(cor);
 		return cor;
 	}
 
@@ -28,6 +28,20 @@ public class ExercicioDeColecao {
 		return nomes.size();
 	}
 
+	public List<String> exercicio3Add() {
 
-	
+List<String> nome = new ArrayList<String>();
+nome.add("Antonio");
+nome.add("Zeny");
+nome.add("Claudia");
+nome.add("Hiago");
+nome.add("Gutemberg");
+nome.add("Katia");
+nome.add("Carla");
+nome.add("Thaynara");
+nome.add("Yakine");
+nome.add("Giovanna");
+		return nome;
+	}
+
 }
