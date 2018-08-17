@@ -30,17 +30,17 @@ public class ExercicioDeColecao {
 
 	public List<String> exercicio3Add() {
 
-List<String> nome = new ArrayList<String>();
-nome.add("Antonio");
-nome.add("Zeny");
-nome.add("Claudia");
-nome.add("Hiago");
-nome.add("Gutemberg");
-nome.add("Katia");
-nome.add("Carla");
-nome.add("Thaynara");
-nome.add("Yakine");
-nome.add("Giovanna");
+		List<String> nome = new ArrayList<String>();
+		nome.add("Antonio");
+		nome.add("Zeny");
+		nome.add("Claudia");
+		nome.add("Hiago");
+		nome.add("Gutemberg");
+		nome.add("Katia");
+		nome.add("Carla");
+		nome.add("Thaynara");
+		nome.add("Yakine");
+		nome.add("Giovanna");
 		return nome;
 	}
 
