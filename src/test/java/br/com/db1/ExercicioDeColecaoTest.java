@@ -23,11 +23,11 @@ public class ExercicioDeColecaoTest {
 		assertTrue(exercicio.exercicio2QddItensLista() == 2);
 	}
 
-
 	@Test
 	public void exercicio3AddTest() {
 		List<String> nome = exercicio.exercicio3Add();
 		assertTrue(nome.get(0) == "Antonio");
+		assertTrue(nome.get(1) == "Zeny");
 
 	}
 }

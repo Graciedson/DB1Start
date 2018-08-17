@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util
+
 public class ExercicioDeColecao {
 
 	public List<String> exercicio1CorPreferida() {
@@ -54,6 +55,7 @@ public class ExercicioDeColecao {
 		nome.Iterator.remove();
 		
 		nome.add("Lara");
+		nome.add("Thiago");
 
 		
 		return nome;
