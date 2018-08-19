@@ -5,17 +5,19 @@ import java.util.Collections;
 import java.util.List;
 
 public class ExercicioDeColecao {
-	
+
 	List<String> cor = new ArrayList<String>();
 	List<String> nomes = new ArrayList<String>();
 	List<String> nome = new ArrayList<String>();
 	List<String> cidade = new ArrayList<String>();
-	
+	List<Integer> numPar = new ArrayList<Integer>();
+	List<Integer> numImpar = new ArrayList<Integer>();
+
 	public ExercicioDeColecao() {
 		cor.add("Branco");
 		cor.add("Preto");
 		cor.add("Verde");
-	 	cor.add("Amarelo");
+		cor.add("Amarelo");
 		nomes.add("Graciedson");
 		nomes.add("Silva");
 		nome.add("Antonio");
@@ -31,29 +33,21 @@ public class ExercicioDeColecao {
 		cidade.add("Cotia");
 		cidade.add("Itapevi");
 		cidade.add("Embu");
-		
+
 	}
 
 	public List<String> exercicio1CorPreferida() {
-		//List<String> cor = new ArrayList<String>();
-
 		System.out.println(cor.size());
 		System.out.println(cor);
 		return cor;
 	}
 
 	public Integer exercicio2QddItensLista() {
-//		ArrayList<String> nomes = new ArrayList<String>();
-
 		System.out.println(nomes.size());
 		return nomes.size();
 	}
 
 	public List<String> exercicio3Add() {
-
-	//	List<String> nome = new ArrayList<String>();
-
-
 		System.out.println(nome);
 
 		nome.remove("Antonio");
@@ -67,10 +61,6 @@ public class ExercicioDeColecao {
 	}
 
 	public List<String> exercicio4CidadeNatal() {
-	//	List<String> cidade = new ArrayList<String>();
-
-
-
 		System.out.println(cidade);
 		cidade.remove(1);
 		System.out.println(cidade);
@@ -79,9 +69,6 @@ public class ExercicioDeColecao {
 	}
 
 	public List<String> exercicio5ClassificaCor() {
-//		List<String> cor = new ArrayList<String>();
-
-
 		System.out.println(cor);
 		Collections.sort(cor);
 
@@ -89,5 +76,42 @@ public class ExercicioDeColecao {
 
 		return cor;
 	}
-	
+
+	public List<String> exercicio6EliminaCor() {
+		System.out.println(cor);
+		cor.remove("Verde");
+		cor.add("Roxo");
+		System.out.println("6" + cor);
+		Collections.sort(cor);
+		System.out.println("6" + cor);
+		return cor;
+	}
+
+	public List<String> exercicio7Decrescente() {
+		System.out.println("7" + nome);
+		Collections.sort(nome);
+		System.out.println("7" + nome);
+		Collections.reverse(nome);
+		System.out.println("7" + nome);
+		return nome;
+
+	}
+
+	public List<Integer> exercicio8Par() {
+
+		for (Integer i = 2; i <= 20; i += 2) {
+			numPar.add(i);
+		}
+		System.out.println("8" + numPar);
+		return numPar;
+	}
+	public List<Integer> exercicio8Impar() {
+
+		for (Integer i = 1; i <= 20; i += 2) {
+			numImpar.add(i);
+		}
+		System.out.println("8" + numImpar);
+		return numImpar;
+	}
+
 }

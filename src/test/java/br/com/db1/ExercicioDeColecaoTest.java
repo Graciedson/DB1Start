@@ -48,8 +48,42 @@ public class ExercicioDeColecaoTest {
 		assertTrue(cor.get(2) == "Preto");
 		assertTrue(cor.get(3) == "Verde");
 	}
-	/*
-	 * @Test public void exercicio6EliminaCorTest(); List<String> cor =
-	 * exercicio.exercicio6EliminaCor(); assertTrue(cor.get(1) == "Branco");
-	 */
+
+	@Test
+	public void exercicio6EliminaCorTest() {
+		;
+
+		List<String> cor = exercicio.exercicio6EliminaCor();
+
+		assertFalse(cor.contains("Verde"));
+
+	}
+
+	@Test
+	public void exercicio7DecrescenteTest() {
+		;
+
+		List<String> nome = exercicio.exercicio7Decrescente();
+
+		assertTrue(nome.get(0) == "Zeny");
+
+	}
+	@Test
+	public void exercicio8ParTest() {
+		
+
+		List<Integer> num = exercicio.exercicio8Par();
+
+		assertTrue(num.contains(2));
+	
+}
+	@Test
+	public void exercicio8ImparTest() {
+		
+
+		List<Integer> num = exercicio.exercicio8Impar();
+
+		assertFalse(num.contains(2));
+	
+}
 }
