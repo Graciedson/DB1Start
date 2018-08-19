@@ -23,10 +23,6 @@ public class ExercicioDeColecaoTest {
 
 		assertTrue(exercicio.exercicio2QddItensLista() == 2);
 	}
-<<<<<<< HEAD
-//
-=======
->>>>>>> 89b3c4ad1d0e20280078c2643f84b8abfcebbdda
 
 	@Test
 	public void exercicio3AddTest() {
@@ -45,17 +41,15 @@ public class ExercicioDeColecaoTest {
 	@Test
 	public void exercicio5ClassificaCorTest() {
 
-	List<String> cor = exercicio.exercicio5ClassificaCor();
+		List<String> cor = exercicio.exercicio5ClassificaCor();
 
-	assertTrue(cor.get(0) == "Amarelo");
-	assertTrue(cor.get(1) == "Branco");
-	assertTrue(cor.get(2) == "Preto");
-	assertTrue(cor.get(3) == "Verde");
-}
+		assertTrue(cor.get(0) == "Amarelo");
+		assertTrue(cor.get(1) == "Branco");
+		assertTrue(cor.get(2) == "Preto");
+		assertTrue(cor.get(3) == "Verde");
+	}
 	/*
-	@Test
-	public void exercicio6EliminaCorTest();
-	List<String> cor = exercicio.exercicio6EliminaCor();
-	assertTrue(cor.get(1) == "Branco");
-	*/
+	 * @Test public void exercicio6EliminaCorTest(); List<String> cor =
+	 * exercicio.exercicio6EliminaCor(); assertTrue(cor.get(1) == "Branco");
+	 */
 }
