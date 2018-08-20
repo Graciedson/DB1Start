@@ -15,9 +15,9 @@ public class ExercicioDeColecao {
 	List<String> cidade = new ArrayList<String>();
 	List<Integer> numPar = new ArrayList<Integer>();
 	List<Integer> numImpar = new ArrayList<Integer>();
-	List<String> nomesD = new ArrayList<String>();
+	
 
-	Set<String> nomesUnicos = new HashSet<String>();
+	HashSet<String> nomesD = new HashSet<String>();
 
 	public ExercicioDeColecao() {
 		cor.add("Branco");
@@ -137,13 +137,12 @@ public class ExercicioDeColecao {
 	public List<String> exercicio9NomesDistintos() {
 		System.out.println("9 - " + nomesD);
 		System.out.println("9 - " + nomesD.size());
-		for (String i : nomesD) {
-			nomesUnicos.add(i);
-		}
-		
+		List<String> nomesUnicos = new ArrayList<String>(nomesD);
+
+		Collections.sort(nomesUnicos);
 		System.out.println("9 - " + nomesUnicos);
 		System.out.println("9 - " + nomesUnicos.size());
-		return nomesD;
+		return nomesUnicos;
 
 	}
 }

@@ -91,7 +91,6 @@ public class ExercicioDeColecaoTest {
 	public void exercicio9NomesDistintosTest() {
 		List<String> nomesD = exercicio.exercicio9NomesDistintos();
 		
-		//assertTrue(nomesD.size() == 14);
 		assertTrue(nomesD.size() == 13);
 	}
 }
