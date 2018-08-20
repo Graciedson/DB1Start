@@ -1,5 +1,6 @@
 package br.com.db1;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
@@ -86,4 +87,11 @@ public class ExercicioDeColecaoTest {
 		assertFalse(num.contains(2));
 	
 }
+	@Test
+	public void exercicio9NomesDistintosTest() {
+		List<String> nomesD = exercicio.exercicio9NomesDistintos();
+		
+		//assertTrue(nomesD.size() == 14);
+		assertTrue(nomesD.size() == 13);
+	}
 }
