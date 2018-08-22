@@ -26,6 +26,7 @@ public class TipoLogradouroTest {
 		assertEquals("Fazenda", TipoLogradouro.FAZENDA.getDescricaoLougradouro());
 		assertEquals("Praça", TipoLogradouro.PRACA.getDescricaoLougradouro());
 		assertEquals("Avenida", TipoLogradouro.AVENIDA.getDescricaoLougradouro());
+	
 	}
 
 }
