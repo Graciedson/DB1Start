@@ -1,5 +1,5 @@
 package br.com.db1.oo;
 
-public class PessoaFisica {
+public class PessoaFisica extends Pessoa {
 
 }
